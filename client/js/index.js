@@ -4,13 +4,13 @@ var campos = [
   document.querySelector('#valor')
 ];
 
+var tr = document.createElement('tr');
+
 var tbody = document.querySelector('table tbody')
 
 document.querySelector('.form').addEventListener('submit', function (event) {
 
   event.preventDefault();
-
-  var tr = document.createElement('tr');
 
   campos.forEach(function (campo) {
 
