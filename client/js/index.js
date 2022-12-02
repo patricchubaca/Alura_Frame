@@ -26,6 +26,4 @@ document.querySelector('.form').addEventListener('submit', function (event) {
 
   tr.appendChild(tdVolume);
   tbody.appendChild(tr)
-
-  console.log(tr)
 })
