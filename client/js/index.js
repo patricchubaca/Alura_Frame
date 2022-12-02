@@ -19,8 +19,8 @@ document.querySelector('.form').addEventListener('submit', function (event) {
     tr.appendChild(td);
 
   });
-  MEEEEEEEE!!
-    var tdVolume = document.createElement('td');
+
+  var tdVolume = document.createElement('td');
 
   tdVolume.textContent = campos[1].value * campos[2].value;
 
