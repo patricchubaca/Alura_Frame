@@ -3,7 +3,6 @@ var campos = [
   document.querySelector('#quantidade'),
   document.querySelector('#valor')
 ];
-
 var tr = document.createElement('tr');
 
 var tbody = document.querySelector('table tbody')
@@ -19,7 +18,6 @@ document.querySelector('.form').addEventListener('submit', function (event) {
     tr.appendChild(td);
 
   });
-
   var tdVolume = document.createElement('td');
 
   tdVolume.textContent = campos[1].value * campos[2].value;
